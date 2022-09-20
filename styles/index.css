@@ -1,0 +1,17 @@
+@import "navbar.css";
+@import "hero-image.css";
+
+@media (max-width: 375px) {
+  .hero-image {
+    background-image: url("../images/mobile/image-header.jpg");
+
+    /* Set a specific height */
+    height: 100vh;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    }
+}
