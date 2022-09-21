@@ -2,20 +2,20 @@ body, html {
   height: 100%;
 }
 
-/* The hero image */
+/* The hero image
 .hero-image {
 background-image: url(../images/desktop/image-header.jpg);
 
 /* Set a specific height */
-height: 100vh;
-z-index : 1000;
+/* height: 100vh;
+z-index : 1000; */
 
 /* Position and center the image to scale nicely on all screens */
-background-position: center;
+/* background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 position: relative;
-}
+} */ */
 
 /* Place text in the middle of the image */
 .hero-text {
@@ -25,4 +25,32 @@ top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 color: white;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.hero-title {
+  font-family: 'Fraunces', serif;
+  font-size: 64px;
+  font-style: bold;
+  margin-bottom: 64px;
+  color: white;
+}
+
+.hero-img {
+  margin-bottom: 180px;
+}
+
+.bg_img {
+  background-image: url(../images/desktop/image-header.jpg);
+
+/* Set a specific height */
+  height: 100vh;
+  z-index : 1000;
+ /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
