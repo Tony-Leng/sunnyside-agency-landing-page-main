@@ -1,6 +1,39 @@
 /* font-family: 'Barlow', sans-serif; */
 /* font-family: 'Fraunces', serif; */
 
-/* .navbar {
+.navbar-lewagon {
+  /* justify-content: space-between; */
   background-color: transparent;
-} */
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-brand {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 900;
+}
+
+.nav-link {
+  margin-right: 32px;
+  color: transparent;
+}
+
+.nav-item {
+  color: black;
+}
+
+.nav-link:hover {
+  background-color:aqua;
+  color: black;
+  border-radius: 24px;
+  font-family: 'Fraunces', serif;
+  text-transform: uppercase;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.navbar {
+  z-index : 1001;
+}
