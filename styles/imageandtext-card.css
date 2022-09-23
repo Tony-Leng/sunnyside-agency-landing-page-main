@@ -1,0 +1,37 @@
+.imageandtext-card {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+#imageandtext-headline {
+  font-family: 'Fraunces', serif;
+  color: darkslategray;
+  margin-top: 64px;
+  font-size: 32px;
+  margin-right: 32px;
+  margin-left: 32px;
+}
+
+.imageandtext-card p {
+  margin: 32px 16px;
+  font-family: 'Barlow', serif;
+}
+
+.imageandtext-card a {
+  text-decoration: none;
+  margin-bottom: 48px;
+  font-family: 'Fraunces', serif;
+  color: darkslategray;
+}
+
+#transformlink {
+  color: darkslategray;
+  text-decoration: underline 0.5em rgba(255, 255, 255, 0);
+  text-decoration-color: yellow;
+}
+
+#standoutlink {
+  color: darkslategray;
+  text-decoration: underline 0.5em rgba(255, 255, 255, 0);
+  text-decoration-color: peachpuff;
+}

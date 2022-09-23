@@ -4,6 +4,7 @@
 @import "testimonials.css";
 @import "imageandtext-card.css";
 
+
 @media (max-width: 375px) {
   .hero-image {
     background-image: url("../images/mobile/image-header.jpg");
