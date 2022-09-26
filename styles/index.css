@@ -3,6 +3,7 @@
 @import "hero-div.css";
 @import "testimonials.css";
 @import "imageandtext-card.css";
+@import "footer.css";
 
 
 @media (max-width: 375px) {
