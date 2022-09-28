@@ -4,22 +4,30 @@
 @import "testimonials.css";
 @import "imageandtext-card.css";
 @import "footer.css";
+@import "img-card.css";
 
 
-@media (max-width: 375px) {
-  .hero-image {
+@media (max-width: 376px) {
+  /* .hero-image {
     background-image: url("../images/mobile/image-header.jpg");
 
     /* Set a specific height */
-    height: 100vh;
+    /* height: 100vh; */
 
     /* Position and center the image to scale nicely on all screens */
-    background-position: center;
+    /* background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    }
-}
+    } */
+
+  .img-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+
+  }
+};
 
 /* font-family: 'Barlow', sans-serif; */
 /* font-family: 'Fraunces', serif; */
