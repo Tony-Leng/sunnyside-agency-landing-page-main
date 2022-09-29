@@ -3,21 +3,18 @@
 
 .navbar-lewagon {
   background-color: transparent;
+  /* position: relative; */
 }
 
 .navbar-lewagon, .navbar-collapse {
   flex-grow: 0;
+  position: relative;
 }
 
 .navbar-brand {
   font-family: 'Barlow', sans-serif;
   font-weight: 900;
   color: white;
-}
-
-.nav-link {
-  margin-right: 32px;
-  color: rgb(255 255 255);
 }
 
 .nav-link:hover {
@@ -31,9 +28,22 @@
 }
 
 .navbar-nav .nav-link {
-  color: white;
+  color: rgb(106, 102, 102);
+  font-family: 'Barlow', sans-serif;
+  text-align: center;
+  margin: 8px 0;
 }
 
 .active {
+  background-color: white;
+  position: absolute;
+  z-index: 1;
+  width: 98%;
+  height: auto;
+  flex-grow: 1;
+  right: 24px;
+}
 
+.navbar-toggler .active {
+  transition: none;
 }
